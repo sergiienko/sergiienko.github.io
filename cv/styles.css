@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+}
+
+p {
+	margin-top: 15px;
+}
+
+h1, h2, h3 {
+	margin: 0px auto;
+	max-width: 800px;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+ul {
+	margin: 10px 0;
+	list-style-type: square;
+}
+
+p, li {
+	font-size: 20px;
+}
+
+#header {
+	background-color: #2B2A29;
+	padding: 50px;
+	color: #fff;
+}
+
+
+
+#content {
+	max-width: 800px;
+	margin: 0px auto;
+	padding: 0 50px;
+}
+
+.section {
+	border-top: 2px #E2E2E2 solid;
+	padding: 20px 0;
+	clear: both;
+}
+
+.first {
+	border-top: 0;
+}
+
+#contacts {
+	margin-bottom: 60px;
+}
+
+.contact-item {
+	float: left; 
+	width: 50%;
+	min-width: 250px;
+	height: 25px;
+}
+
+.contact-item b{
+	padding-right: 20px;
+}
+
+#footer {
+	padding: 0 50px 0 50px;
+}
+
+.bash, .social {
+	position: fixed;
+	bottom: 5px;
+}
+
+.bash {
+	color: #2B2A29;
+	font-size: 72px;
+	left: 50px;
+	font-weight: bold;
+}
+
+.social {
+	list-style-type: none;
+	right: 50px;
+}
+
+.social li {
+	float: right;
+	margin: 5px 5px 0 0;
+}
+
+.social li a {
+	display: block;
+	border-radius: 15px 0 15px 0;
+	/*border-radius: 0 15px 0 15px;*/
+	background-image: url("img/social_icons.png");
+	background-size: 300px 358px;
+	width: 46px;
+	height: 46px;
+}
+
+.email {
+	background-position: -127px -127px;
+}
+
+.skype {
+	background-position: 115px -127px;
+}
+
+.vk {
+	background-position: -11px -11px;
+}
+
+.fb {
+	background-position: -69px -11px;
+}
+
+.habr {
+	background-position: -12px -185px;
+}
+
+@media screen and (max-width: 1200px) {
+	.bash {
+		display: none;
+	}
+}
