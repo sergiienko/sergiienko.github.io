@@ -133,6 +133,10 @@ p, li {
 	background-position: -12px -185px;
 }
 
+.github {
+    background-position: 115px 173px;
+}
+
 @media screen and (max-width: 1200px) {
 	.bash {
 		display: none;
