@@ -108,7 +108,7 @@ p, li {
 	border-radius: 15px 0 15px 0;
 	/*border-radius: 0 15px 0 15px;*/
 	background-image: url("img/social_icons.png");
-	background-size: 300px 358px;
+	background-size: 300px;
 	width: 46px;
 	height: 46px;
 }
@@ -140,5 +140,39 @@ p, li {
 @media screen and (max-width: 1200px) {
 	.bash {
 		display: none;
+	}
+
+	.social li {
+		float: none;
+	}
+
+		.social li a {
+		background-size: 510px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.email {
+		background-position: -215px -215px;
+	}
+
+	.skype {
+		background-position: 197px -215px;
+	}
+
+	.vk {
+		background-position: -19px -19px;
+	}
+
+	.fb {
+		background-position: -117px -19px;
+	}
+
+	.habr {
+		background-position: -19px -313px;
+	}
+
+	.github {
+	    background-position: 196px 295px;
 	}
 }
