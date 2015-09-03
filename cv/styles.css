@@ -38,7 +38,7 @@ p, li {
 	font-size: 20px;
 }
 
-#header {
+header {
 	background-color: #2B2A29;
 	padding: 50px;
 	color: #fff;
@@ -52,7 +52,7 @@ p, li {
 	padding: 0 50px;
 }
 
-.section {
+section {
 	border-top: 2px #E2E2E2 solid;
 	padding: 20px 0;
 	clear: both;
@@ -62,22 +62,8 @@ p, li {
 	border-top: 0;
 }
 
-#contacts {
-	margin-bottom: 60px;
-}
 
-.contact-item {
-	float: left; 
-	width: 50%;
-	min-width: 250px;
-	height: 25px;
-}
-
-.contact-item b{
-	padding-right: 20px;
-}
-
-#footer {
+footer {
 	padding: 0 50px 0 50px;
 }
 
