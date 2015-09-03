@@ -127,38 +127,42 @@ footer {
 	.bash {
 		display: none;
 	}
+	
+	.social {
+		right: 0px;
+	}
 
 	.social li {
 		float: none;
 	}
 
-		.social li a {
+	/* .social li a {
 		background-size: 510px;
 		width: 80px;
 		height: 80px;
 	}
-
+	
 	.email {
 		background-position: -215px -215px;
 	}
-
+	
 	.skype {
 		background-position: 197px -215px;
 	}
-
+	
 	.vk {
 		background-position: -19px -19px;
 	}
-
+	
 	.fb {
 		background-position: -117px -19px;
 	}
-
+	
 	.habr {
 		background-position: -19px -313px;
 	}
-
+	
 	.github {
 	    background-position: 196px 295px;
-	}
+	} */
 }
