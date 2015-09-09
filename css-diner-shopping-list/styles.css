@@ -4,9 +4,7 @@
 	transition: all .2s ease-in;
 }
 
-html {
-	height: 100%;
-}
+html { height: 100%; }
 
 body {
 	font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
@@ -15,24 +13,21 @@ body {
 	min-height: 100%;
 }
 
-.wrapper {
-	background-color: #3B3F45;
-}
-
 header,
 footer {
 	color: #EB7E7F;
-}
-
-header {
 	background-color: #4A4F56;
 	text-align: center;
 	padding: 50px 0 20px;
+	font-size: 21px;
+}
+
+header {
 	margin-bottom: 30px;
 }
 
-header span {
-font-size: 21px;
+footer {
+	padding: 15px 0;
 }
 
 .shopping-list,
@@ -43,26 +38,20 @@ footer {
 
 .shopping-list {
 	margin-bottom: 30px;
+	list-style-type: none;
 }
 
 .shopping-list label {
 	display: block;
 	padding: 10px;
 	cursor: pointer;
-}
-
-.shopping-list label:nth-child(odd) {
 	background-color: #88839E;
+	color: #FFF;
+	font-size: 20px;
 }
 
 .shopping-list label:nth-child(even) {
 	background-color: #7A7593;
-}
-
-.shopping-list label {
-	display: block;
-	color: #FFF;
-	font-size: 20px;
 }
 
 .shopping-list label:hover {
@@ -78,10 +67,11 @@ footer {
 .shopping-list input[type="checkbox"] {
 	height: 20px;
 	width: 20px;
-	cursor: pointer;
-	margin-right: 15px;
 	position: relative;
 	top: 3px;
+	cursor: pointer;
+	margin: 0 15px 0 10px;
+	/*-webkit-transform: scale(2);*/
 }
 
 .shopping-list input[type="checkbox"]:checked ~ span {
@@ -89,9 +79,14 @@ footer {
 	text-decoration: line-through;
 }
 
+.item {
+	vertical-align: middle;
+}
+
 .note {
 	font-size: 14px;
 	color: #C5BDC3;
+	/*vertical-align: middle;*/
 }
 
 .note:before {
@@ -105,13 +100,6 @@ footer {
 .note:empty:before,
 .note:empty:after {
 	content: "";
-}
-
-footer {
-	padding: 15px 0;
-	background-color: #4A4F56;
-	text-align: center;
-	font-size: 21px;
 }
 
 /* Body border */
