@@ -41,16 +41,19 @@ footer {
 	list-style-type: none;
 }
 
+.shopping-list li{
+	background-color: #88839E;
+}
+
 .shopping-list label {
 	display: block;
 	padding: 10px;
 	cursor: pointer;
-	background-color: #88839E;
 	color: #FFF;
 	font-size: 20px;
 }
 
-.shopping-list label:nth-child(even) {
+.shopping-list li:nth-child(even) {
 	background-color: #7A7593;
 }
 
